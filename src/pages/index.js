@@ -5,16 +5,19 @@ const IndexPage = () => (
     <div className="Intro">
       <div className="Title">
         <p>
-          Hi 👋, I'm David Coronado, <br />
-          a Sales Engineer, Husband, Father,<br />
-          Latino and a Porsche enthusiast <br />based in San Francisco.
+          Hi 👋, I'm David Coronado. <br />
+          I'm a Sales Engineer, Husband, Father,<br />
+          Latino and a Taco enthusiast <br />based in San Francisco.
         </p>
       </div>
     </div>
     <div className="PhotoGallery">
-      <img src={require('../assets/images/caymanGT4.jpg')} width="33%" />
-      <img src={require('../assets/images/tortillaBarTacos.jpg')} width="33%" />
-      <img src={require('../assets/images/twinBoys.jpg')} width="33%" />
+      <img src={require('../assets/images/twinBoys.jpg')} width="33.2%" />
+      <img src={require('../assets/images/couple.jpg')} width="28.6%" />
+      <img
+        src={require('../assets/images/tortillaBarTacos.jpg')}
+        width="38.2%"
+      />
     </div>
   </div>
 )

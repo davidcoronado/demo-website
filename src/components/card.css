@@ -1,0 +1,60 @@
+.Card {
+  width: 650px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  display: grid;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  max-width: 800px;
+  margin: auto;
+  align-items: center;
+}
+
+.CardTitle {
+  max-width: 650px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  font-size: 12px;
+}
+
+.Title {
+  text-align: left;
+}
+
+.Text {
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .Card {
+    width: 340px;
+  }
+}
+
+/*
+Add to Index.JS
+import Link from 'gatsby-link'
+import Card from '../components/card'
+<div className="CardSection">
+      <div className="CardGroup">
+        <Card
+          title="Woo - Video Q&A App"
+          text="iOS, UX"
+          image={require('../assets/images/testimage.jpg')}
+        />
+        <Card
+          title="Touch - Fingerprint"
+          text="Android"
+          image={require('../assets/images/testimage.jpg')}
+        />
+        <Card
+          title="Enroute"
+          text="Web"
+          image={require('../assets/images/testimage.jpg')}
+        />
+      </div>
+    </div>*/

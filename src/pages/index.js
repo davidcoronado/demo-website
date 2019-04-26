@@ -1,17 +1,20 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Card from '../components/card'
 
 const IndexPage = () => (
   <div>
     <div className="Intro">
       <div className="Title">
         <p>
-          Hi 👋, I'm David Coronado, <br /> a Developer, Designer, Husband,
-          Father, Latino and a Porsche enthusiast.
+          Hi 👋, I'm David Coronado, <br />
+          a Sales Engineer, Husband, Father,<br />
+          Latino and a Porsche enthusiast <br />based in San Francisco.
         </p>
-        <Link to="/page-2/">Go to page 2</Link>
       </div>
+    </div>
+    <div className="PhotoGallery">
+      <img src={require('../assets/images/caymanGT4.jpg')} width="33%" />
+      <img src={require('../assets/images/tortillaBarTacos.jpg')} width="33%" />
+      <img src={require('../assets/images/twinBoys.jpg')} width="33%" />
     </div>
   </div>
 )

@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: 'davidcoronado.co',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-favicon'],
 }

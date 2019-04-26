@@ -1,7 +1,7 @@
 .Footer {
-  position: fixed;
+  position: relative;
   width: 100%;
-  padding: 50px 0px;
+  padding: 80px 0px;
   height: 200px;
   align-self: end;
 }
@@ -19,11 +19,5 @@
 .FooterGroup a:hover {
   transform: translateY(-3px);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  transform: translateY(-8px);
-}
-
-@media (max-width: 640px) {
-  .FooterGroup {
-    width: device-width;
-  }
+  transform: translateY(-14px);
 }

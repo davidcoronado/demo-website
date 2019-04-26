@@ -1,12 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/card'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="Intro">
+      <div className="Title">
+        <p>
+          Hi 👋, I'm David Coronado, <br /> a Developer, Designer, Husband,
+          Father, Latino and a Porsche enthusiast.
+        </p>
+        <Link to="/page-2/">Go to page 2</Link>
+      </div>
+    </div>
   </div>
 )
 

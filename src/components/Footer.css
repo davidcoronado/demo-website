@@ -1,0 +1,29 @@
+.Footer {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0px;
+  height: 200px;
+  align-self: end;
+}
+.FooterGroup {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
+  transition: 1s;
+}
+
+.FooterGroup a:hover {
+  transform: translateY(-3px);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: translateY(-8px);
+}
+
+@media (max-width: 640px) {
+  .FooterGroup {
+    width: device-width;
+  }
+}
